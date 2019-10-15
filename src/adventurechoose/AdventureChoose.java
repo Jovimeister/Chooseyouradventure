@@ -1,7 +1,7 @@
 /*
  * Jovan Gradojevic
- * 
- * and open the template in the editor.
+ * 10/14/2019
+ * Small choose your own adventure about finding your way through grade 9.
  */
 package adventurechoose;
 import java.util.Scanner;
@@ -14,11 +14,13 @@ public class AdventureChoose {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner keyedInput = new Scanner(System.in); 
+        Scanner keyedInput = new Scanner(System.in);
+        //declare strings
         String responsel; 
         String response2; 
         String response3; 
         
+        //process
         System. out.println("You have just begun grade 9 and must get to math class. You have entered the school. Where do you go?(Left/Right)"); 
         responsel = keyedInput.nextLine(); 
         if (responsel.equals("Left")) {
